@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main() {
-    
+int main() {   
     char operator;
     double num1;
     double num2;
@@ -12,7 +11,7 @@ int main() {
 
     printf("Enter number 1: ");
     scanf("%lf", &num1);
-+
+    
     printf("Enter number 2: ");
     scanf("%lf", &num2);
 
@@ -33,7 +32,6 @@ int main() {
         result = num1 / num2;
         printf("\nresul+t: %lf", result);
         break;
-
 
         default:
         printf("%c is not valid", operator);
